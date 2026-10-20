@@ -25,7 +25,7 @@
 
 ## 💡 Why This Exists
 
-With the launch of **Gemini 4 Argon** (`gemini-4-argon`), developers gained a 1M unified context window and frontier-grade reasoning (`thinking_level="high"`). However, using Argon sequentially to search files, write boilerplate tests, or edit leaf modules burns through quotas and token budgets ($2/$10 intro; **$4/$20 per 1M tokens** starting Dec 1).
+With the launch of **Gemini 4 Argon**, developers gained a 1M unified context window and frontier-grade reasoning. However, using Argon sequentially to search files, write boilerplate tests, or edit leaf modules burns through quotas and token budgets ($2/$10 intro; **$4/$20 per 1M tokens** starting Dec 1).
 
 In the official **[Gemini 4 Argon Developer Guide](https://aistudio.google.com/learn/gemini-4-argon-developer-guide)** (*Tip #4: "Use Argon as an orchestrator"*), Google DeepMind engineers highlight the exact workflow used internally across Google:
 
@@ -47,7 +47,7 @@ Normally, simply asking an LLM to *"use subagents"* fails mid-session because fr
                                             ▼
                         ┌───────────────────────────────────────┐
                         │            GEMINI 4 ARGON             │
-                        │    (thinking_level: medium / high)    │
+                        │ (thinking_level: low / medium / high) │
                         │                                       │
                         │  1. Triage Tasks (Tier 1 vs Tier 2)   │
                         │  2. Define Strict Interface Contracts │
