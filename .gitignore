@@ -1,0 +1,29 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary, build, and log files
+*.log
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+
+# Local chat conversation exports & PDFs
+*.pdf
+*sohbet*
+*copy paste*
+*Argon ve Flash*
+extracted_*.txt
+
+# Local context / memory tracking
+TASK_MEMORY.md
+KNOWN_ISSUES.md
