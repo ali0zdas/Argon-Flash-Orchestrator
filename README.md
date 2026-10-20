@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Argon + Flash Orchestrator
-### *Economical Multi-Agent Orchestration for Google Antigravity (`agy`), OpenCode & Frontier AI IDEs*
+### *Economical Multi-Agent Orchestration for Google Antigravity (App, CLI & IDE)*
 
 <p align="center">
   <b>Spend Gemini 4 Argon tokens on high-level architecture — offload mechanical work to parallel Gemini 3.8 Flash workhorses.</b>
@@ -11,7 +11,7 @@
 [![Primary Model](https://img.shields.io/badge/Architect-Gemini_4_Argon-8E24AA?style=for-the-badge&logo=googlegemini&logoColor=white)](https://aistudio.google.com/learn/gemini-4-argon-developer-guide)
 [![Subagents](https://img.shields.io/badge/Workhorses-Gemini_3.8_Flash-00C853?style=for-the-badge&logo=lightning&logoColor=white)](https://aistudio.google.com/learn/gemini-4-argon-developer-guide)
 [![License: MIT](https://img.shields.io/badge/License-MIT-FBC02D?style=for-the-badge)](./LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Antigravity_%7C_OpenCode_%7C_Claude_Code-black?style=for-the-badge)](https://github.com/ali0zdas/Argon-Flash-Orchestrator)
+[![Ecosystem](https://img.shields.io/badge/Ecosystem-Google_Antigravity_(App_%E2%80%A2_CLI_%E2%80%A2_IDE)-1A73E8?style=for-the-badge&logo=google&logoColor=white)](https://github.com/ali0zdas/Argon-Flash-Orchestrator)
 
 <br/>
 
