@@ -105,13 +105,21 @@ Frontier models often invent excuses to skip delegation and generate everything 
 
 ## 🚀 Quick Installation
 
-### Option 1: Google Antigravity CLI (`agy`) Native Plugin *(Recommended)*
+### Option 1: Ask Your AI Agent *(Zero-Terminal / Prompt-Based)*
+
+Paste this single prompt directly into your **Google Antigravity (App / IDE)** chat:
+
+```text
+Install the Argon + Flash Orchestrator plugin from https://github.com/ali0zdas/Argon-Flash-Orchestrator.git into this workspace: copy its skills/, agents/, and commands/ directories into .agents/ and append the rules from AGENTS.md to this project's root AGENTS.md.
+```
+
+### Option 2: Google Antigravity CLI (`agy`) Native Plugin *(Recommended)*
 
 ```bash
 agy plugin install https://github.com/ali0zdas/Argon-Flash-Orchestrator.git
 ```
 
-### Option 2: Linux / macOS / WSL One-Liner
+### Option 3: Linux / macOS / WSL One-Liner
 
 Run directly in your project root to populate `.agents/` and create `AGENTS.md`:
 
@@ -119,7 +127,7 @@ Run directly in your project root to populate `.agents/` and create `AGENTS.md`:
 curl -fsSL https://raw.githubusercontent.com/ali0zdas/Argon-Flash-Orchestrator/main/install.sh | bash
 ```
 
-### Option 3: Windows PowerShell One-Liner
+### Option 4: Windows PowerShell One-Liner
 
 Run in PowerShell in your project root:
 
@@ -127,7 +135,7 @@ Run in PowerShell in your project root:
 irm https://raw.githubusercontent.com/ali0zdas/Argon-Flash-Orchestrator/main/install.ps1 | iex
 ```
 
-### Option 4: Manual Copy
+### Option 5: Manual Copy
 
 Copy the `skills/`, `agents/`, and `commands/` folders into your workspace's `.agents/` directory (or `~/.gemini/antigravity/` for global user access) and append `AGENTS.md` to your workspace root rules.
 
