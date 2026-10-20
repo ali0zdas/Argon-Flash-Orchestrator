@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Argon + Flash Orchestrator
-### *Economical Multi-Agent Orchestration for Google Antigravity (App, CLI & IDE)*
+### *Token-Efficient Multi-Agent Orchestration for Google Antigravity (App, CLI & IDE)*
 
 <p align="center">
   <b>Spend Gemini 4 Argon tokens on high-level architecture — offload mechanical work to parallel Gemini 3.8 Flash subagents.</b>
