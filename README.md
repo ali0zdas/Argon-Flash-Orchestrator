@@ -17,7 +17,7 @@
 
 | 💰 **65%+ Token Cost Reduction** | ⚡ **~3.2x Faster Execution** | 🧠 **Zero Context Bloat** |
 |:---:|:---:|:---:|
-| Leaves expensive Argon tokens for architecture | Parallel Flash subagents write code simultaneously | Terminal logs & grep sweeps stay out of main context |
+| Reserves high-value Argon tokens for architecture | Parallel Flash subagents write code simultaneously | Terminal logs & grep sweeps stay out of main context |
 
 </div>
 
