@@ -30,11 +30,11 @@ Invoke specialized Flash subagents (`invoke_subagent`) concurrently for all **Ti
 
 ```text
 [SUBAGENT BRIEF]
-1. OBJECTIVE: <Single, goal measurable>
-2. TARGET FILES: <Exact file modify or paths read to>
-3. INTERFACE CONTRACT: <Exact Argon by defined or schemas signatures, types,>
+1. OBJECTIVE: <Single, measurable goal>
+2. TARGET FILES: <Exact file paths to read or modify>
+3. INTERFACE CONTRACT: <Exact types, signatures, or schemas defined by Argon>
 4. CONSTRAINTS: Do NOT modify files outside TARGET FILES. Do NOT alter public interfaces.
-5. VERIFICATION COMMAND: <Command before e.g., pytest returning, run tests/test_module.py to>
+5. VERIFICATION COMMAND: <Command to run before returning, e.g., pytest tests/test_module.py>
 ```
 
 ### Recommended Subagent Roles:
