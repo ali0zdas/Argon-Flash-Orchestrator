@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 $RepoUrl = "https://github.com/ali0zdas/Argon-Flash-Orchestrator.git"
 $TargetDir = ".agents"
 
-Write-Host "⚡ Installing Argon + Flash Orchestrator into ./$TargetDir..." -ForegroundColor Cyan
+Write-Host "[-] Installing Argon + Flash Orchestrator into ./$TargetDir..." -ForegroundColor Cyan
 
 $TmpDir = Join-Path ([System.IO.Path]::GetTempPath()) ([System.Guid]::NewGuid().ToString())
 git clone --depth 1 $RepoUrl $TmpDir | Out-Null
@@ -15,11 +15,11 @@ Copy-Item -Path "$TmpDir/commands/*" -Destination "$TargetDir/commands/" -Recurs
 
 if (-not (Test-Path "AGENTS.md")) {
     Copy-Item -Path "$TmpDir/AGENTS.md" -Destination "./AGENTS.md"
-    Write-Host "✅ Created root AGENTS.md" -ForegroundColor Green
+    Write-Host "[+] Created root AGENTS.md" -ForegroundColor Green
 }
 else {
-    Write-Host "ℹ️  AGENTS.md already exists. Merge rules manually if needed." -ForegroundColor Yellow
+    Write-Host "[!] AGENTS.md already exists. Merge rules manually if needed." -ForegroundColor Yellow
 }
 
 Remove-Item -Path $TmpDir -Recurse -Force
-Write-Host "🚀 Argon + Flash Orchestrator installed successfully!" -ForegroundColor Green
+Write-Host "[OK] Argon + Flash Orchestrator installed successfully!" -ForegroundColor Green
