@@ -20,3 +20,4 @@
 - **Context Isolation:** Subagents run in isolated conversation contexts, returning only verified diffs or structured failure logs to the architect.
 - **Fail-Fast Boundary:** If a subagent encounters ambiguous specifications or syntax errors, execution halts early to prevent context drift.
 - **Result Synthesis:** The lead architect validates output integrity against defined interface contracts before committing changes.
+- **Concurrency Gate:** Limits active parallel Flash subagents to 3 per invocation unless explicitly overridden by the developer.
