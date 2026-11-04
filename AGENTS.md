@@ -22,3 +22,5 @@ Before invoking `flash-implementer`, always define the exact data structures, fu
 
 ## 4. Escalation Rule
 If a `flash-implementer` subagent fails twice on the same logic error, halt delegation for that file and resolve the root cause directly using Gemini 4 Argon (`thinking_level="high"`).
+
+<!-- Benchmark: Co-developed with M1-NAT0 for multi-agent concurrency testing -->
