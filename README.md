@@ -172,6 +172,21 @@ Once installed, Argon automatically activates this pattern on multi-file tasks. 
 
 ---
 
+## 💡 Pro-Tips: Pairing with Antigravity Built-ins
+
+`Argon + Flash Orchestrator` is designed to be completely **non-intrusive**. It respects your workflow and never overrides or hijacks native Antigravity slash commands.
+
+If you frequently use Antigravity’s built-in commands, here is how you can pair them for maximum efficiency:
+
+| Built-in Command | How They Complement Each Other | Pro-Tip Workflow |
+| :--- | :--- | :--- |
+| **`/boost`** | High-effort reasoning for complex edge cases. | Run `/boost` strictly during the **architectural design / RFC phase**. Once the interfaces are locked, switch to `/plan-economical` to prevent burning high-reasoning tokens on routine implementation. |
+| **`/teamwork`** | Multi-agent autonomous collaboration. | When starting a `/teamwork` session, you can instruct Antigravity to assign the included `flash-scout`, `flash-implementer`, and `flash-verifier` personas to team members to keep team execution fast and economical. |
+| **`/plan` vs. `/plan-economical`** | Standard planning vs. Tier-based economical execution. | Use `/plan` for routine step-by-step tasks. Use `/plan-economical` whenever a task spans multiple files, tests, or migrations and demands a clear **Tier 1 (Argon) vs. Tier 2 (Flash)** split. |
+| **`/compact`** | Context window optimization. | While `flash-scout` and `flash-verifier` already keep noise out of the primary context, running `/compact` after finishing a major milestone keeps long multi-turn sessions running at peak speed. |
+
+---
+
 ## 📄 License & Attribution
 
 - Released under the [MIT License](./LICENSE).
